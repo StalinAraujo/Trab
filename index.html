@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick*and*Morty*Dados</title>
+    <meta name="author" content="">
+    <meta name="Description" content="Rick and Morty">
+    <link rel="stylesheet" href="Assets/Stilo/Stilo.css">
+</head>
+<body>
+    <header>
+        <img id="menu" src="./Assets/Imagens/menu.svg" alt="menu">
+        <nav>
+        <ul id="ulM">
+            <button id="clear">Clear</button>
+            <li class="liM">
+                <p class="pStatus" id="status1">Vazio</p>
+                <img class="card"  id="img1" src="./Assets/Imagens/cartas.svg" alt="icone card">
+            </li>
+            <li class="liM">
+                <p class="pStatus" id="status2">Vazio</p>
+                <img class="card"  id="img2" src="./Assets/Imagens/cartas.svg" alt="icone card">
+            </li class="liM">
+            <li class="liM">
+                <p class="pStatus" id="status3">Vazio</p>
+                <img class="card" id="img3" src="./Assets/Imagens/cartas.svg" alt="icone card">
+            </li>
+            <li class="liM">
+                <p class="pStatus" id="status4">Vazio</p>
+                <img class="card" id="img4" src="./Assets/Imagens/cartas.svg" alt="icone card">
+            </li>
+        </ul>
+        </nav>
+
+        <div id="textTop">Rick and Morty</div>
+    </header>
+
+    <main>
+        <div id="input">
+            <form>
+              <input type="text" required="required" name="numbers" pattern="[1-671]">
+
+           </form>
+        </button><img id="imgLupa" src="./Assets/Imagens/procurar.svg" alt="LupaPesquisa">
+        </div>
+
+        <section id="sectInf">
+            <p id="idCard">Numero Card</p>
+            <div id="img">
+                <img id="imagem" src="" alt="Retrato Personagem">
+            </div>
+            
+            <div id="divSec">
+            <section id="Inf">
+                <ul id="coluna1">
+                    <li><p class="infp">nome:</p>
+                        <p id="nome" class="pDados"></p></li>
+                    <li><p class="infp">status:</p>
+                        <p id="status" class="pDados"></p></li>
+                    <li><p class="infp">specie:</p>
+                        <p id="specie" class="pDados"></p></li>
+                </ul>
+                <ul id="coluna2">
+                    <li><p class="infp">gênero:</p>
+                        <p id="gender" class="pDados"></p></li>
+                    <li><p class="infp">origem:</p>
+                        <p id="origin" class="pDados"></p></li>
+                    <li><p class="infp">localização:</p>
+                        <p id="location" class="pDados"></p></li>
+                </ul>
+            </section>
+            </div>
+        </section>
+            <img id="button" src="./Assets/Imagens/upload.svg" alt="armazenarCard">
+    </main>
+
+    <footer>
+        <div id="footerDados">
+           Trabalho Stalin<br> &nbsp &nbsp &nbsp &nbsp &nbsp<a href="https://rickandmortyapi.com/documentation/" target="blank_">API</a>
+        </div>
+    </footer>
+
+    <script src="./Assets/JavaScript/script.js"></script>
+</body>
+</html>
